@@ -9,15 +9,15 @@ public static void findmissing(int[] arr){
 
     //sort the array
     //increment temp to equal it
-    //any exeption will look
+    //any exception will look
 int n = arr.length+1;
 int sum  = n*(n+1)/2;
 for(int i:arr){
 
     sum= sum-i;
 }
-    for(int i=0;i<arr.length;i++){
-        System.out.print(arr[i]+" ");
+    for (int j : arr) {
+        System.out.print(j + " ");
     }
     System.out.println(sum);
 

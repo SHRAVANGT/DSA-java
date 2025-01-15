@@ -72,3 +72,7 @@ Arrays:
 They are colllection of specified data type.
 They hold sequential index or memory locations
 fixed size and resize is not possible
+
+
+stack is LIFO
+queue is FIFO

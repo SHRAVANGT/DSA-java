@@ -8,8 +8,8 @@ import java.util.Scanner;
 public class finalArray {
 
     public static void printArray(int[] arr) {
-        for (int i = 0; i < arr.length; i++) {
-            System.out.print(arr[i] + " ");
+        for (int j : arr) {
+            System.out.print(j + " ");
         }
         System.out.println();
     }
@@ -24,9 +24,9 @@ public class finalArray {
         }
         int[] temp = new int[oddCount];
         int j = 0;
-        for (int i = 0; i < array.length; i++) {
-            if (array[i] % 2 != 0) {
-                temp[j] = array[i];
+        for (int k : array) {
+            if (k % 2 != 0) {
+                temp[j] = k;
                 j++;
             }
         }

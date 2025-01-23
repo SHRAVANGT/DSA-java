@@ -76,3 +76,25 @@ fixed size and resize is not possible
 
 stack is LIFO
 queue is FIFO
+
+Tree is a non linear data structure that has nodes and not circular 
+parent is called root and last node or not connecting node is called leaf(not having children)
+
+binary tree is a tree where each node has 0,1,2 children
+
+binary search tree is  ordered tree which helps in search and insertion of data
+-- left sub tree contains node values less than root
+-- right sub tree contains node values more than root
+-- subtrees must also be binary search tree
+
+complete binary tree has all children or level to be completely filled or at least left side last level is not empty
+
+binary heap is implemented by complete binary tree using array(level-order)
+parent-child calculation in binary heap in array index are
+- 2k,2k+1 (k is index of array)
+- ex: children of 1st index is 2,3(2*1,2*1+1)
+- k/2
+- ex:parent of 5th index is 2 (5/2)
+
+max-heap:parent should be greater than children
+min-heap:parent should be lesser than children

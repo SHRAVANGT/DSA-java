@@ -9,7 +9,7 @@ public class finalArray {
 
     public static void printArray(int[] arr) {
         for (int j : arr) {
-            System.out.print(j + " ");
+            System.out.print(arr[j] + " ");
         }
         System.out.println();
     }
